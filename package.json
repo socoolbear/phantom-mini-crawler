@@ -1,0 +1,16 @@
+{
+  "name": "warm",
+  "version": "1.0.0",
+  "description": "activate proxy cache",
+  "main": "index.js",
+  "dependencies": {
+    "phantomjs-pool": "^0.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":  "nodejs index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
