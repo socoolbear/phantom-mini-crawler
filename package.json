@@ -4,11 +4,15 @@
   "description": "activate proxy cache",
   "main": "index.js",
   "dependencies": {
-    "phantomjs-pool": "^0.3.1"
+    "phantomjs-pool": "^0.3.1",
+    "phantomjs-prebuilt": "^2.1.14",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "winston": "^2.3.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start":  "nodejs index.js",
+    "start": "nodejs index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
